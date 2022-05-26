@@ -3,6 +3,11 @@
     --color-in-action: #2196F3;
     --color-title: #212121;
     --color-text: #757575;
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --background-darc: #2F303A;
+    --background-light: #F5F4FA;
+    --address-link: rgba(255, 255, 255, 0.6);
 }
 
 .list {
@@ -26,15 +31,15 @@ color: var(--color-text);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--color-in-action);
 }
 
 .logo-dark {
-    color: #000000;
+    color: var(--color-dark);
 }
 
 .logo-light {
-color: #FFFFFF;
+color: var(--color-light);
 }
 
 /*==========================/COMPONENTS====================*/
@@ -42,7 +47,7 @@ color: #FFFFFF;
 /*=============================HEADER=====================*/
 
 .page-header {
-    background: #FFFFFF;
+    background: var(--color-light);
 }
 
 .navigation-link-item {
@@ -50,12 +55,12 @@ color: #FFFFFF;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--color-title)
+    color: var(--color-title);
 }
 
 .navigation-link-item:hover,
 .navigation-link-item:focus {
-    color: var(--color-in-action)
+    color: var(--color-in-action);
 }
 
 .contact-link-header-item {
@@ -63,16 +68,16 @@ color: #FFFFFF;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--color-text);
 }
 
 .contact-link-header-item:hover,
 .contact-link-header-item:focus {
-    color: var(--color-in-action)
+    color: var(--color-in-action);
 }
 
 .current {
-    color: var(--color-in-action)
+    color: var(--color-in-action);
 }
 
 /*=============================/HEADER=====================*/
@@ -80,7 +85,7 @@ color: #FFFFFF;
 /*===============================HERO STUDIO======================*/
 
 .order {
-    background: #2F303A;
+    background: var(--background-darc);
 }
 
 .order-title {
@@ -90,15 +95,15 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--color-light);
 }
 
 .modal-butten {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
-        color: #FFFFFF;
-        background: #2196F3;
+        color: var(--color-light);
+        background: var(--color-in-action);
         cursor: pointer;
 }
 
@@ -112,7 +117,7 @@ color: #FFFFFF;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-title)
+    color: var(--color-title);
 }
 
 .features-text {
@@ -130,7 +135,7 @@ color: #FFFFFF;
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: var(--color-title)
+        color: var(--color-title);
 }
 
 /*=============================/ACTIVITY=====================*/
@@ -138,11 +143,11 @@ color: #FFFFFF;
 /*=============================OUR TEAM=====================*/
 
 .our-team {
-    background: #F5F4FA;
+    background: var(--background-light);
 }
 
 .our-team-item {
-    background: #FFFFFF;
+    background: var(--color-light);
 }
 
 .our-team-title {
@@ -150,7 +155,7 @@ color: #FFFFFF;
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: var(--color-title)
+        color: var(--color-title);
 }
 
 .our-team-name {
@@ -159,7 +164,7 @@ color: #FFFFFF;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--color-title)
+        color: var(--color-title);
 }
 
 .our-team-text {
@@ -180,19 +185,19 @@ color: #FFFFFF;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
-        background: #F5F4FA;
+        color: var(--color-title);
+        background: var(--background-light);
         cursor: pointer;
 }
 
 .service-list-button:hover,
 .service-list-button:focus {
-    color: #FFFFFF;
-    background: var(--color-in-action)
+    color: var(--color-light);
+    background: var(--color-in-action);
 }
 
 .catalog-item {
-    background: #FFFFFF;
+    background: var(--color-light);
 }
 
 .catalog-title {
@@ -200,7 +205,7 @@ color: #FFFFFF;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: var(--color-title)
+        color: var(--color-title);
 }
 
 .catalog-text {
@@ -214,7 +219,7 @@ color: #FFFFFF;
 /*=============================FOOTER=====================*/
 
 .footer {
-    background: #2F303A;
+    background: var(--background-darc);
 }
 
 .address-footer {
@@ -222,7 +227,7 @@ color: #FFFFFF;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: var(--color-light);
 }
 
 .address-link-item {
@@ -230,7 +235,7 @@ color: #FFFFFF;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+        color: var(--address-link);
 }
 
 /*=============================/FOOTER=====================*/
