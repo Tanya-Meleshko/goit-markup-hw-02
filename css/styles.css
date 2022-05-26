@@ -106,10 +106,6 @@ color: #FFFFFF;
 
 /*=============================FEATURES=====================*/
 
-.features {
-    background: #E5E5E5;
-}
-
 .features-title-item {
     font-weight: 700;
     font-size: 14px;
@@ -128,10 +124,6 @@ color: #FFFFFF;
 /*=============================/FEATURES=====================*/
 
 /*=============================ACTIVITY=====================*/
-
-.activity {
-    background: #E5E5E5;
-}
 
 .activity-title {
     font-weight: 700;
@@ -181,10 +173,6 @@ color: #FFFFFF;
 
 /*==========================HERO PORTFOLIO=================*/
 
-.service {
-    background: #E5E5E5;
-}
-
 .service-list-button {
         border: none;
         font-weight: 500;
@@ -206,10 +194,6 @@ color: #FFFFFF;
 /*==========================/HERO PORTFOLIO=================*/
 
 /*=============================CATALOG=====================*/
-
-.catalog {
-    background: #E5E5E5;
-}
 
 .catalog-item {
     background: #FFFFFF;
